@@ -1,0 +1,136 @@
+/***************************TAG SELECTORS**************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 6px;
+  border-color: lightgrey;
+  width: 5%;
+  margin: 100px auto 100px auto;
+  clear: both;
+}
+
+p {
+  line-height: 2;
+}
+
+/***************************CLASS SELECTORS************************************/
+.top {
+  background-color: #E8F6EF;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.middle {
+  margin: 100px auto;
+}
+
+.bottom {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 20px 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.footer-text {
+  color: white;
+  padding-top: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.web-dev-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cpu-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:13px 32px;
+	text-decoration:none;
+  font-weight: bolder;
+}
+.contact-btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.contact-btn:active {
+	position:relative;
+	top:1px;
+}
